@@ -9,7 +9,7 @@ const rapidapiKey = '1d43ad60fbmshafb409348c8c14cp1b88a3jsn9c5d81a49829';
 const rapidapiHost = 'blackbox.p.rapidapi.com';
 
 // Endpoint to ask the blackbox AI
-app.get('/box/ask', (req, res) => {
+app.get('/box/ask=', (req, res) => {
   const query = req.query.q;
 
   const options = {
