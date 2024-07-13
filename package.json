@@ -1,0 +1,21 @@
+{
+  "name": "blackbox-ai-api",
+  "version": "1.0.0",
+  "description": "A simple Blackbox AI API using RapidAPI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "blackbox",
+    "ai",
+    "api",
+    "rapidapi",
+    "express"
+  ],
+  "author": "Jr Busaco",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
